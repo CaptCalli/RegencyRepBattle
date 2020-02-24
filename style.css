@@ -1,0 +1,128 @@
+/*font-family: 'Lemonada', cursive;
+font-family: 'Courgette', cursive;*/
+
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background: #2c2c2c;
+}
+
+h1 {
+  color: lightcoral;
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Lemonada";
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 80%;
+  height: 2rem;
+  color: lightcoral;
+  border: 1px solid #e05050;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+  background-color: #eee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: lightcoral;
+  /*background-color: #a927f5;*/
+  transition: all 0.2s ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+  background-color: lightcoral;
+  /*background-color: #a927f5;*/
+  transition: all 0.2s ease-out;
+}
+
+button {
+  font: inherit;
+  /*background: #ff0062;*/
+  background: darkcyan;
+  border: 1px solid darkcyan;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  /*background: #a927f5;*/
+  background: #e05050;
+  /*border-color: #a927f5;*/
+  border-color: #e05050;
+}
+
+#health-levels,
+#controls {
+  margin: 2rem auto;
+  width: 30rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background: white;
+}
+
+#health-levels {
+	font-family: 'Lemonada', cursive;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lemonada', cursive;
+}
+
+#bonusLife {
+  font-weight: bold;
+  color: white;
+  background: darkcyan;
+  border: 1px solid darkcyan;
+  padding: 1px 5px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+
+.instructions {
+	padding: 0 10px;
+  margin-top: 10px;
+  background-color: lightcoral;
+  border-style: 1px solid lightcoral;
+  border-radius: 3%;
+}
+
+.player2 {
+  display:inline;
+}
+
+img {
+  margin-bottom: 0;
+}
